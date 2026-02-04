@@ -24,8 +24,16 @@ body {
     text-align: center;
     font-size: 60px;
     top: 40px;
-    width: 1450px;
+    width: 100%;
     color:rgb(189, 188, 219);
+}
+
+@media (max-width: 1000px) {
+    .title {
+        width:1000px;
+        font-size: 32px;  
+        top: 5px;         
+    }
 }
 
 .genreTitles{
